@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arpit Dev Food Blog</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fdfdfd;
+        color: #333;
+    }
+    header {
+        background-color: #FF5722;
+        color: white;
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        padding: 25px 0;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    main {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+    .food-item {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        width: 300px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .food-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    }
+    .food-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .food-item .info {
+        padding: 15px;
+    }
+    .food-item .info h3 {
+        margin: 0 0 10px;
+        font-size: 22px;
+        color: #FF5722;
+    }
+    .food-item .info p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    footer {
+        background-color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    @media(max-width:500px) {
+        .food-item { width: 90%; }
+    }
+</style>
+</head>
+<body>
+
+<header>Food Recipes by Arpit Dev</header>
+
+<main>
+
+<!-- Food 1 -->
+<div class="food-item">
+<img alt="Paneer Butter Masala">
+<div class="info">
+<h3>Paneer Butter Masala</h3>
+<p>
+Paneer Butter Masala ek classic North Indian dish hai jo paneer cubes ko rich tomato-based gravy mein cook karke banaya jata hai. Sabse pehle, paneer cubes ko halka sa fry kar lein taaki wo firm aur soft dono ho. Ek pan mein butter garam karein, aur finely chopped onions daal kar golden brown hone tak sauté karein. Fir ginger-garlic paste daal kar 2-3 minute fry karein. Tamatar puree aur red chili powder, turmeric, coriander powder aur garam masala daal kar gravy banayein. Cream add karein aur medium heat pe 10-12 minute cook karein. Paneer cubes daal kar gentle stir karein, thodi kasuri methi sprinkle karein. Garnish karein fresh coriander se. Serve karein naan, roti ya steamed rice ke saath. Is dish ka taste creamy aur flavorful hota hai jo sabko pasand aata hai.
+</p>
+</div>
+</div>
+
+<!-- Food 2 -->
+<div class="food-item">
+<img alt="Chocolate Brownie">
+<div class="info">
+<h3>Chocolate Brownie</h3>
+<p>
+Chocolate Brownie ek rich aur fudgy dessert hai. Sabse pehle, dark chocolate aur unsalted butter ko double boiler mein melt karein. Eggs aur sugar ko ek bowl mein ache se whisk karein jab tak fluffy ho jaye. Melted chocolate-butter mixture ko eggs aur sugar ke saath combine karein. Phir sifted all-purpose flour aur thoda cocoa powder add karein aur gently fold karein. Batter ko baking pan mein daal kar 180°C pe 20-25 minute bake karein. Bake hone ke baad slightly cool hone de fir cut karein. Optional: top pe chocolate chips ya nuts sprinkle karein. Ye brownie bahut soft aur gooey hoti hai, perfect coffee ya milkshake ke saath. Serve karein immediately aur enjoy karein is rich chocolate taste ko.
+</p>
+</div>
+</div>
+
+<!-- Food 3 -->
+<div class="food-item">
+<img alt="Pasta Arrabbiata">
+<div class="info">
+<h3>Pasta Arrabbiata</h3>
+<p>
+Pasta Arrabbiata ek spicy Italian dish hai. Sabse pehle, penne pasta ko salted boiling water mein al dente cook karein. Ek pan mein olive oil garam karein, garlic slices aur red chili flakes daal kar sauté karein. Tamatar puree add karein aur 10 minute simmer karein, salt aur black pepper adjust karein. Cooked pasta ko sauce mein toss karein. Fresh basil aur grated parmesan cheese sprinkle karein. Serve immediately with garlic bread. Ye dish simple, spicy aur flavorful hai. Agar chaho to thoda olive oil drizzle aur chili flakes extra add kar sakte ho. Garnish ke liye chopped parsley use karein. Iska taste bold aur aromatic hota hai. Perfect quick Italian dinner ke liye.
+</p>
+</div>
+</div>
+
+<!-- Food 4 -->
+<div class="food-item">
+<img alt="Grilled Sandwich">
+<div class="info">
+<h3>Grilled Sandwich</h3>
+<p>
+Grilled Sandwich ek quick snack hai. Bread slices ke beech mein cheese, tomato, cucumber, capsicum aur butter spread karein. Sandwich press mein rakhein aur golden brown hone tak grill karein. Optional: sprinkle chaat masala ya oregano for extra taste. Serve hot with tomato ketchup. Ye sandwich crispy aur cheesy hoti hai, aur bahut jaldi ready ho jati hai. Agar chaho to filling mein boiled potato ya paneer cubes bhi add kar sakte ho. Ideal for tea-time snack ya evening snack. Serve immediately taaki crispiness bani rahe.
+</p>
+</div>
+</div>
+
+<!-- Food 5 -->
+<div class="food-item">
+<img alt="Fruit Salad">
+<div class="info">
+<h3>Fruit Salad</h3>
+<p>
+Fruit Salad ek healthy aur refreshing dessert hai. Seasonal fruits like apple, banana, mango, papaya aur grapes ko chhote pieces mein cut karein. Honey aur lemon juice drizzle karein aur mint leaves garnish karein. Mix gently aur fridge mein 10 minute chill karein. Ye salad sweet aur tangy flavor ke saath nutritious hoti hai. Optional: top pe chaat masala ya roasted nuts daal sakte ho. Ye breakfast, snack ya dessert ke liye perfect hai. Serve immediately taaki fruits fresh rahein.
+</p>
+</div>
+</div>
+
+<!-- Food 6 -->
+<div class="food-item">
+<img alt="Masala Dosa">
+<div class="info">
+<h3>Masala Dosa</h3>
+<p>
+Masala Dosa South Indian specialty hai. Rice aur urad dal ka fermented batter banayein. Thin layer mein dosa spread karein aur cook karein until crispy. Potato filling ke liye, boiled potatoes ko onion, mustard seeds, turmeric, green chilies aur curry leaves ke saath sauté karein. Masala daal kar dosa fold karein. Serve with coconut chutney aur sambar. Ye crispy aur flavorful dish breakfast aur brunch ke liye perfect hai. Chutney aur sambar ke combination se taste aur enhance hota hai. Optional: thoda butter daal kar rich flavor add karein.
+</p>
+</div>
+</div>
+
+<!-- Food 7 -->
+<div class="food-item">
+<img alt="Chicken Biryani">
+<div class="info">
+<h3>Chicken Biryani</h3>
+<p>
+Chicken Biryani ek flavorful rice dish hai. Chicken ko yogurt, ginger-garlic paste aur biryani masala mein marinate karein. Basmati rice ko half cooked karein. Ek heavy pan mein layer banayein – rice, chicken, fried onions, saffron milk. Dum pe 20-25 minute cook karein. Garnish fresh coriander aur mint leaves se karein. Serve with raita aur salad. Ye dish aromatic, spicy aur soft chicken ke saath rich flavor deti hai. Optional: boiled eggs aur cashews top kar sakte ho. Perfect party dish hai.
+</p>
+</div>
+</div>
+
+<!-- Food 8 -->
+<div class="food-item">
+<img alt="Veg Spring Rolls">
+<div class="info">
+<h3>Veg Spring Rolls</h3>
+<p>
+Veg Spring Rolls mein mixed vegetables julienne karein aur thoda soy sauce ke saath sauté karein. Pastry sheet mein filling daal kar roll karein aur edges seal karein. Deep fry until golden brown. Serve with sweet chili sauce. Ye crunchy aur tasty snack ready hoti hai. Optional: sesame seeds sprinkle karein for flavor. Healthy aur quick appetizer ke liye perfect. Serve immediately to enjoy crunchiness. Ye dish kids aur adults dono ko pasand aayegi.
+</p>
+</div>
+</div>
+
+<!-- Food 9 -->
+<div class="food-item">
+<img alt="Mango Lassi">
+<div class="info">
+<h3>Mango Lassi</h3>
+<p>
+Mango Lassi banane ke liye ripe mango puree, yogurt, sugar aur ice cubes blender mein daal kar smooth blend karein. Serve chilled with cardamom sprinkle. Ye refreshing drink summer ke liye perfect hai. Optional: thodi cream ya saffron strands garnish karein. Lassi thick aur sweet hoti hai. Breakfast, snack ya dessert ke saath serve karein. Natural mango flavor aur creamy texture taste ko enhance karte hain. Ye Indian mango drink famous hai worldwide.
+</p>
+</div>
+</div>
+
+<!-- Food 10 -->
+<div class="food-item">
+<img alt="Palak Paneer">
+<div class="info">
+<h3>Palak Paneer</h3>
+<p>
+Palak Paneer spinach puree aur paneer cubes ke saath banaya jata hai. Spinach ko boil karke puree karein. Pan mein onion, garlic sauté karein, fir puree aur spices daal kar 10 minute cook karein. Paneer cubes add karein aur cream sprinkle karein. Serve hot with roti ya rice. Ye dish soft aur flavorful hoti hai. Optional: thodi butter drizzle karein for richness. North Indian cuisine ka healthy aur tasty option. Fresh coriander se garnish karein before serving.
+</p>
+</div>
+</div>
+
+<!-- Food 11 -->
+<div class="food-item">
+<img alt="Aloo Paratha">
+<div class="info">
+<h3>Aloo Paratha</h3>
+<p>
+Aloo Paratha ek North Indian breakfast favorite hai. Boiled potatoes ko mash karein. Isme finely chopped onions, green chilies, coriander leaves aur salt daal kar stuffing banayein. Wheat flour ka dough soft banayein aur thodi der rest karein. Dough ka portion lein aur stuffing daal kar roll karein. Tawa garam karein aur paratha ko dono sides golden brown hone tak fry karein. Serve with curd, pickle aur butter. Ye dish soft, flavorful aur crispy hoti hai. Optional: thoda garam masala aur ajwain sprinkle karein stuffing mein. Breakfast ke liye ideal hai.
+</p>
+</div>
+</div>
+
+<!-- Food 12 -->
+<div class="food-item">
+<img alt="Veg Biryani">
+<div class="info">
+<h3>Veg Biryani</h3>
+<p>
+Veg Biryani aromatic rice dish hai. Basmati rice ko half cooked karein. Mixed vegetables jaise carrot, beans, peas sauté karein with onion, ginger-garlic paste, tomatoes aur spices. Ek pan mein layer banayein – rice aur vegetables. Saffron milk aur fried onions daal kar dum pe cook karein 20 minute. Serve hot with raita aur salad. Ye dish spicy, colorful aur flavorful hoti hai. Optional: roasted nuts aur raisins add kar sakte ho. Party aur festive occasions ke liye perfect.
+</p>
+</div>
+</div>
+
+<!-- Food 13 -->
+<div class="food-item">
+<img alt="Dhokla">
+<div class="info">
+<h3>Dhokla</h3>
+<p>
+Dhokla ek popular Gujarati snack hai. Besan aur yogurt ka batter banayein, thoda sugar, salt aur ENO mix karein. Steamer mein 15-20 minute steam karein until fluffy aur spongy. Tempering ke liye mustard seeds, green chilies aur curry leaves sauté karein aur dhokla ke upar drizzle karein. Garnish with fresh coriander. Serve with green chutney. Soft, spongy aur slightly sweet-hot taste ke saath dhokla party snack aur breakfast ke liye perfect hai.
+</p>
+</div>
+</div>
+
+<!-- Food 14 -->
+<div class="food-item">
+<img alt="Pav Bhaji">
+<div class="info">
+<h3>Pav Bhaji</h3>
+<p>
+Pav Bhaji Mumbai street food special hai. Boiled vegetables jaise potato, carrot, peas, beans ko mash karein. Pan mein butter aur onion sauté karein, fir ginger-garlic paste aur tomatoes daal kar cook karein. Mashed vegetables aur pav bhaji masala add karein aur 10-15 minute cook karein. Pav ko butter mein toast karein. Serve hot with chopped onions aur lemon. Spicy, buttery aur flavorful dish hai. Street style taste ghar par easily bana sakte ho.  
+</p>
+</div>
+</div>
+
+<!-- Food 15 -->
+<div class="food-item">
+<img alt="Idli Sambhar">
+<div class="info">
+<h3>Idli Sambhar</h3>
+<p>
+Idli South Indian steamed rice cake hai. Rice aur urad dal ka fermented batter banayein. Idli molds mein batter daal kar steam karein 10-12 minute. Sambhar ke liye dal aur tamatar cook karein, tamatar puree aur spices add karein. Curry leaves aur mustard seeds temper karein. Serve idli with sambhar aur coconut chutney. Soft, fluffy idlis aur flavorful sambhar perfect breakfast combo hai. Healthy aur light dish hai.
+</p>
+</div>
+</div>
+
+<!-- Food 16 -->
+<div class="food-item">
+<img alt="Butter Chicken">
+<div class="info">
+<h3>Butter Chicken</h3>
+<p>
+Butter Chicken creamy North Indian chicken dish hai. Chicken ko yogurt, ginger-garlic paste aur spices ke saath marinate karein. Pan mein butter garam karein, onion sauté karein, fir tomato puree daal kar cook karein. Chicken pieces add karein aur simmer karein 15-20 minute. Cream aur kasuri methi daal kar final flavor enhance karein. Serve hot with naan ya steamed rice. Rich, buttery aur mildly spiced dish hai, sabko pasand aayegi.
+</p>
+</div>
+</div>
+
+<!-- Food 17 -->
+<div class="food-item">
+<img alt="Tandoori Chicken">
+<div class="info">
+<h3>Tandoori Chicken</h3>
+<p>
+Tandoori Chicken ek famous North Indian grilled chicken dish hai. Chicken ko yogurt, ginger-garlic paste, red chili powder, turmeric, garam masala aur lemon juice ke saath marinate karein. Kam se kam 4-5 ghante ya overnight marinate karein taaki flavor deeply soak ho jaye. Oven ya tandoor mein 200°C pe 25-30 minute grill karein, beech-beech mein butter brush karein taaki soft aur juicy rahe. Serve hot with onion rings, lemon wedges aur mint chutney. Crispy edges aur juicy inside ka perfect combination hai. Ye dish party aur festive occasions ke liye best hai.
+</p>
+</div>
+</div>
+
+<!-- Food 18 -->
+<div class="food-item">
+<img alt="Veg Pulao">
+<div class="info">
+<h3>Veg Pulao</h3>
+<p>
+Veg Pulao ek aromatic rice dish hai jo everyday meal aur special occasions ke liye perfect hai. Basmati rice ko wash aur soak karein. Pan mein ghee garam karein, cumin seeds, bay leaf, cloves aur cinnamon daal kar sauté karein. Onion, ginger-garlic paste aur mixed vegetables add karein. Rice aur water daal kar 15-20 minute cook karein until fluffy. Salt aur garam masala adjust karein. Garnish karein fried onions aur coriander leaves se. Ye dish colorful, fragrant aur light hoti hai. Serve hot with raita ya curry. Healthy aur tasty combination hai.
+</p>
+</div>
+</div>
+
+<!-- Food 19 -->
+<div class="food-item">
+<img alt="Chocolate Cake">
+<div class="info">
+<h3>Chocolate Cake</h3>
+<p>
+Chocolate Cake ek rich aur moist dessert hai. Flour, cocoa powder, baking powder aur salt sift karein. Eggs aur sugar ko whisk karein jab tak fluffy ho jaye. Butter aur melted chocolate ko mix karein aur dry ingredients fold karein gently. Batter ko greased cake pan mein daal kar 180°C pe 30-35 minute bake karein. Cool hone ke baad frosting lagayein (chocolate ganache ya buttercream). Cake soft, moist aur chocolaty hota hai. Birthday ya celebration ke liye perfect. Optional: top pe chocolate shavings aur berries garnish karein. Serve slices with coffee ya milkshake.
+</p>
+</div>
+</div>
+
+<!-- Food 20 -->
+<div class="food-item">
+<img alt="Veg Manchurian">
+<div class="info">
+<h3>Veg Manchurian</h3>
+<p>
+Veg Manchurian ek Indo-Chinese dish hai jo fried vegetable balls aur flavorful sauce ke saath banayi jati hai. Mixed vegetables (cabbage, carrot, beans) ko finely chop karke mix karein cornflour, all-purpose flour aur spices ke saath. Balls banayein aur deep fry karein until golden brown. Sauce ke liye garlic, ginger, green chilies sauté karein, soy sauce, tomato ketchup, vinegar aur water daal kar boil karein. Fried balls ko sauce mein toss karein. Serve hot with steamed rice ya noodles. Crispy aur saucy taste ka perfect combo hai. Garnish karein chopped spring onions se.
+</p>
+</div>
+</div>
+
+</main>
+
+<footer>
+Created by Arpit Dev | Page created on 24-11-2025
+</footer>
+
+</body>
+</html>
